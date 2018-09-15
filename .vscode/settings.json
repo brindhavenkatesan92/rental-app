@@ -1,0 +1,6 @@
+{
+  "beautify.ignore": [
+    "**/**/*.hbs"
+],
+"editor.formatOnSave": false
+}

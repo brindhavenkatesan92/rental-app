@@ -1,0 +1,5 @@
+{{#list-filter filter=(action "filterByCity") as |filteredResults|}}
+    {{#each filteredResults as |rental|}}
+        {{rental-detail rental=rental}}
+    {{/each}}
+{{/list-filter}}
